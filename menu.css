@@ -1,0 +1,65 @@
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+  
+}
+
+header nav ul li a {
+    text-transform : uppercase;
+    margin-right: 20px;
+
+}
+
+body
+{
+	font-family: Arial Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+h1{
+    font-family: "crete round", serif;
+	font-size: 45px;
+    color: rgb(110, 10, 10);
+    margin-top: 50px;
+    justify-content: space space-around;
+    display: flex;
+}
+
+a{
+    text-decoration: solid;
+    color:none;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    float: right;
+}
+
+.buttonA , .buttonB ,.buttonC  {
+    display: block;
+    width: 100px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    background:gainsboro; 
+    float: left;
+    border-radius: 3px;
+
+}
+
+.buttonA :hover {
+    background: rgb(240, 239, 241);
+}
+
+
+.mainImage {
+    background: url(Zombiland.png) no-repeat center;
+  
+  
+}
+
